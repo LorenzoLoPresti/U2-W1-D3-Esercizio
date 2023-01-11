@@ -1,4 +1,4 @@
-article {
+.article {
   width: 300px;
   background-color: #fbf7e3;
   padding: 1em;
@@ -7,18 +7,18 @@ article {
   color: #692e0b;
 }
 
-article img {
+.article img {
   width: 100%;
 }
 
 @media screen and (min-width: 1200px) {
-  article {
+  .article {
     width: 80%;
     display: flex;
     padding: 2em;
   }
 
-  article .article-container {
+  .article .article-container {
     order: 1;
     margin-left: 1em;
   }

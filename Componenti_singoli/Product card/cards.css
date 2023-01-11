@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-main {
+.card {
   background-color: #fbf7e3;
   color: #692e0b;
   display: flex;
@@ -15,11 +15,11 @@ main {
   font-family: sans-serif;
 }
 
-main img {
+.card img {
   align-self: center;
 }
 
-main .card-bottom-side {
+.card .card-bottom-side {
   padding: 10px;
   display: flex;
   flex-direction: column;
