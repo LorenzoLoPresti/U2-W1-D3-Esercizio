@@ -56,9 +56,7 @@ article h3 {
   main {
     margin: auto;
   }
-  nav {
-    width: 300px;
-  }
+
   nav li {
     order: 2;
   }
