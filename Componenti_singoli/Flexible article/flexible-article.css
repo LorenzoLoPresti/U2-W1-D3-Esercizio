@@ -1,0 +1,28 @@
+article {
+  width: 300px;
+  background-color: #fbf7e3;
+  padding: 1em;
+  font-family: sans-serif;
+  border-radius: 35px;
+  color: #692e0b;
+}
+
+article img {
+  width: 100%;
+}
+
+@media screen and (min-width: 1200px) {
+  article {
+    width: 80%;
+    display: flex;
+    padding: 2em;
+  }
+
+  article .article-container {
+    order: 1;
+    margin-left: 1em;
+  }
+  /* article .article-container {
+    display: flex;
+  } */
+}
